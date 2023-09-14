@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/hero_bg.jpg") center/ cover no-repeat;
+}
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding:  0 10px;
+}
+.navbar {
+  display: flex;
+  padding: 22px 0;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navbar .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+.navbar .logo h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+}
+.logo img {
+  width: 40px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.navbar .links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+.navbar .links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+}
+.navbar .links a:hover {
+  color: #19e8ff;
+}
+
+.navbar .login-btn {
+  border: none;
+  outline: none;
+  color: #275360;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #fff;
+}
