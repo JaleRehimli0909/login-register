@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <!-- Navigation bar -->
     <header>
       <nav class="navbar">
@@ -35,5 +34,75 @@
         <button class="login-btn">LOG IN</button>
       </nav>
     </header>
+    <!-- Popup Form-->
+    <div class="form-popup">
+        <span class="close-btn material-symbols-round">x</span>
+      <div class="form-box login">
+        <div class="form-details">
+          <h2>Welcome Back</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus officiis ex blanditiis nisi, numquam autem architecto
+            ab nobis ullam illum dolor laborum similique earum rem eveniet.
+            Dolor necessitatibus blanditiis beatae?
+          </p>
+        </div>
+        <div class="form-content">
+               <h2>LOGIN</h2>
+               <form action="">
+                <div class="input-field" >
+                    <input type="text" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+
+                <a href="#" class="forgot-pass">Forgot password?</a>
+                <button type="submit">Log In</button>
+               </form>
+               <div class="button-link">
+                Don't have an account?
+                <a href="#">Sign</a>
+               </div>
+        </div>
+      </div>
+      <div class="form-box signup">
+        <div class="form-details">
+          <h2>Create Account</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus officiis ex blanditiis nisi, numquam autem architecto
+          </p>
+        </div>
+        <div class="form-content">
+               <h2>SIGNUP</h2>
+               <form action="">
+                <div class="input-field" >
+                    <input type="text" required>
+                    <label >Enter your email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required>
+                    <label >Create password</label>
+                </div>
+               <div class="policy-text">
+                <input type="checkbox" id="policy"/>
+                <label for="policy">
+                    I agree the
+                    <a href="#">Terms & Conditions</a>
+                </label>
+               </div>
+             
+                <button type="submit">Sign Up</button>
+               </form>
+               <div class="button-link">
+                Already have an account?
+                <a href="#">Login</a>
+               </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
